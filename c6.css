@@ -1,0 +1,180 @@
+@media only screen and (max-width: 600px) {}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+.first-sector {
+    width: 100%;
+    height: 2000px;
+    /* background-color: tomato; */
+
+
+}
+
+.background-box {
+    width: 100%;
+    height: 98vh;
+    /* background-color: blue; */
+    position: relative;
+}
+
+
+.background-vid {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    z-index: -1;
+
+
+}
+
+.background-vid video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navnavbar-pos {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.nav-bar {
+    width: 80%;
+    height: 7vh;
+    /* background-color: red; */
+    margin: auto;
+    position: relative;
+
+
+}
+
+.nav-bar-logo {
+    width: 10%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.nav-bar-links {
+    width: 50%;
+    height: 100%;
+    /* background-color: burlywood; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.nav-bar-links-position {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* background-color: red; */
+    /* text-align: center; */
+}
+
+
+.nav-bar-logo a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 25%;
+    transform: translate(-50%);
+
+}
+
+.nav-bar-links ul li {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 4%;
+
+}
+
+.nav-bar-links ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.middle-setion {
+    width: 30%;
+    height: 40%;
+    /* background-color: red; */
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.middle-setion h1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 5%;
+
+}
+
+.middle-setion p {
+    color: white;
+    margin-top: 2%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.middle-setion button {
+
+    margin-top: 15%;
+    padding: 2%;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.middle-setion button:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.down-button {
+    width: 100%;
+    height: 60px;
+    /* background-color: blueviolet; */
+    margin-top: 35%;
+    text-align: center;
+}
+
+.down-button button {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007eff;
+    /* padding: 1%; */
+    font-size: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
